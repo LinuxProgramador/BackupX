@@ -33,9 +33,7 @@ Key Features
 Installing Dependencies
 -----------------------
 
-# Installing Python 3 and pip
-
-# Linux Distributions (Debian, Ubuntu, Kali, Linux Mint, etc.)
+Installing Python 3 and pip in Linux Distributions (Debian, Ubuntu, Kali, Linux Mint, etc.)
 
 Run the following commands in the terminal:
 
@@ -43,9 +41,7 @@ Run the following commands in the terminal:
 - sudo apt install python3 python3-pip -y
 
 
-# Installing Python 3 and pip
-
-# Windows
+Installing Python 3 and pip in Windows:
 
 1. Download the Python installer from:
 - https://www.python.org/downloads/
