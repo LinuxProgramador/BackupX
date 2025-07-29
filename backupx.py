@@ -151,7 +151,7 @@ def main(
         if ssh_connection:
           if ssh_key_path:
             if ssh_local_path == destination:
-               ssh_local_path = backup_filename
+               ssh_local_path = backup_filename + ".aes" if password and encryption  else backup_filename
 
             ssh = establish_ssh_connection(ssh_host, ssh_port, ssh_user, ssh_key_path, error_logger)
 
