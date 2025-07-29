@@ -9,7 +9,7 @@ error_logger, info_logger = setup_loggers()
 
 def is_valid_backup(file_path: str) -> bool:
     """Return True if file has a .zip or .7z extension (case-insensitive)"""
-    return file_path.lower().endswith(('.zip', '.7z'))
+    return file_path.lower().endswith(('.zip', '.7z', '.7z.aes'))
 
 
 def create_ssh_client(hostname: str, port: int, username: str, key_file: str) -> 'paramiko.SSHClient':
