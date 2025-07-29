@@ -35,7 +35,7 @@ Manual Backup Execution
 
 To run a backup manually:
 
-    python3 BackupX/backupx.py
+    python3 backupx.py
 
 By default, it will:
 
@@ -50,7 +50,7 @@ Manual Extraction / Decryption
 
 Use decypherx.py to extract and decrypt .zip, .7z, or .7z.aes archives:
 
-    python3 BackupX/decypherx.py -e path/to/archive.7z.aes -d path/to/key.txt -o ./restore
+    python3 decypherx.py -e path/to/archive.7z.aes -d path/to/key.txt -o ./restore
 
 Other examples:
 
@@ -93,7 +93,7 @@ Logs
 
 Both scripts create two log files:
 
-- info.log â- Successful operations and key events
+- info.log Ã¢- Successful operations and key events
 - error.log - Failures and error traces
 
 Check these regularly to ensure everything is functioning properly.
