@@ -30,6 +30,33 @@ Key Features
 - Strong input validation and overflow protection
 - Full logging (info + error) for auditing and debugging
 
+Installing Dependencies
+-----------------------
+
+# Installing Python 3 and pip
+
+# Linux Distributions (Debian, Ubuntu, Kali, Linux Mint, etc.)
+
+Run the following commands in the terminal:
+
+- sudo apt update
+- sudo apt install python3 python3-pip -y
+
+
+# Installing Python 3 and pip
+
+# Windows
+
+1. Download the Python installer from:
+- https://www.python.org/downloads/
+
+2. Open the installer and check the Add Python to PATH box, then click Install Now
+
+3. pip is automatically installed with Python since version 3.4
+
+4. For more information about pip, you can visit:
+- https://pip.pypa.io/en/stable/installation/
+
 Manual Backup Execution
 -----------------------
 
