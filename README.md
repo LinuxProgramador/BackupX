@@ -102,7 +102,7 @@ On Linux (with cron):
 
 2. Add this line to schedule backup daily at 3:00 AM:
 
-       0 3 * * * /usr/bin/python3 /absolute/path/to/BackupX/backupx.py >> /absolute/path/to/BackupX/backup.log 2>&1
+       0 3 * * * cd /absolute/path/to/BackupX && /usr/bin/python3 backupx.py >> /absolute/path/to/BackupX/backup.log 2>&1
 
 On Windows (Task Scheduler):
 
