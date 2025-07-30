@@ -2,7 +2,8 @@
 
 # === Configuration ===
 PYTHON_BIN="/usr/bin/python3"
-BACKUP_SCRIPT="/absolute/path/to/BackupX/backupx.py"
+cd /absolute/path/to/BackupX
+BACKUP_SCRIPT="backupx.py"
 
 # NOTE: Cron logs cannot be redirected to the logs directory
 LOG_FILE="/absolute/path/to/BackupX/backup.log"
