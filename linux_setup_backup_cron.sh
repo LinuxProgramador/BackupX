@@ -4,6 +4,7 @@
 PYTHON_BIN="/usr/bin/python3"
 CHANGE_PATH="cd /absolute/path/to/BackupX &&"
 BACKUP_SCRIPT="backupx.py"
+BACKUP_SCRIPT_VALIDATE="/absolute/path/to/BackupX/$BACKUP_SCRIPT"
 
 # NOTE: Cron logs cannot be redirected to the logs directory
 LOG_FILE="/absolute/path/to/BackupX/backup.log"
@@ -15,7 +16,7 @@ if [ ! -x "$PYTHON_BIN" ]; then
   exit 1
 fi
 
-if [ ! -f "$BACKUP_SCRIPT" ]; then
+if [ ! -f "$BACKUP_SCRIPT_VALIDATE" ]; then
   echo "[ERROR] Backup script not found at: $BACKUP_SCRIPT"
   exit 1
 fi
