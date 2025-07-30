@@ -56,7 +56,7 @@ Installing Python 3 and pip in Windows:
 
 5. Enter the BackupX directory
 - cd BackupX
-- bat install.bat
+- call install.bat
 
 
 Manual Backup Execution
