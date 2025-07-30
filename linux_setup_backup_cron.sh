@@ -2,7 +2,7 @@
 
 # === Configuration ===
 PYTHON_BIN="/usr/bin/python3"
-cd /absolute/path/to/BackupX
+CHANGE_PATH="cd /absolute/path/to/BackupX"
 BACKUP_SCRIPT="backupx.py"
 
 # NOTE: Cron logs cannot be redirected to the logs directory
@@ -21,7 +21,7 @@ if [ ! -f "$BACKUP_SCRIPT" ]; then
 fi
 
 # === Cron job line ===
-CRON_COMMAND="$CRON_SCHEDULE $PYTHON_BIN $BACKUP_SCRIPT >> $LOG_FILE 2>&1"
+CRON_COMMAND="$CRON_SCHEDULE $CHANGE_PATH $PYTHON_BIN $BACKUP_SCRIPT >> $LOG_FILE 2>&1"
 
 # === Check if the cron job already exists ===
 (crontab -l 2>/dev/null | grep -F "$BACKUP_SCRIPT") >/dev/null
