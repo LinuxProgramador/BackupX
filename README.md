@@ -39,7 +39,8 @@ Run the following commands in the terminal:
 
 - sudo apt update
 - sudo apt install python3 python3-pip -y
-
+- cd BackupX
+- bash install.sh
 
 Installing Python 3 and pip in Windows:
 
@@ -52,6 +53,11 @@ Installing Python 3 and pip in Windows:
 
 4. For more information about pip, you can visit:
 - https://pip.pypa.io/en/stable/installation/
+
+5. Enter the BackupX directory
+- cd BackupX
+- bat install.bat
+
 
 Manual Backup Execution
 -----------------------
