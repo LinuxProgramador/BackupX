@@ -111,11 +111,13 @@ On Windows (Task Scheduler):
 3. Set a daily trigger (e.g., 3:00 AM)
 4. Set the action to run:
 
-       python C:\Path\To\BackupX\backupx.py
+       cd C:\Path\To\BackupX\
+       python backupx.py
 
 5. (Optional) Redirect logs:
 
-       python C:\Path\To\BackupX\backupx.py >> C:\Path\To\BackupX\backup.log 2>&1
+        cd C:\Path\To\BackupX\
+        python backupx.py >> C:\Path\To\BackupX\backup.log 2>&1
 
 Logs
 ----
