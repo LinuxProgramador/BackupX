@@ -17,7 +17,7 @@ if [ ! -x "$PYTHON_BIN" ]; then
 fi
 
 if [ ! -f "$BACKUP_SCRIPT_VALIDATE" ]; then
-  echo "[ERROR] Backup script not found at: $BACKUP_SCRIPT"
+  echo "[ERROR] Backup script not found at: $BACKUP_SCRIPT_VALIDATE"
   exit 1
 fi
 
