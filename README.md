@@ -3,6 +3,10 @@ WARNING: The main modules (backupx.py and decypherx.py)
 must not be moved outside the BackupX directory, 
 as their proper functionality depends on this location.
 
+Video tutorial:
+
+   https://youtube.com/shorts/okWQEdKofbo?feature=shared
+   
 
 BackupX - Secure Automated Backup & Extraction Tool
 ====================================================
